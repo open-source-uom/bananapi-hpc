@@ -1,5 +1,5 @@
 # HPC Project @OpenSourceUoM
-
+Γράφουμε σε αυτό το Google Doc (https://docs.google.com/document/d/1NUKlEYw-t38lTVVUAiAo_AlRQNbpnlZOuWe6q-oBlJ8/edit). Όποιος θέλει να συμμετάσχει στο πρότζεκτ, μπορεί να ζητήση πρόσβαση και να έρθει σε επαφή με τα άτομα που το δουλεύουν ήδη ώστε να δουν αν ταιριάζει ή όχι στην υπάρχουσα ομάδα.
 ## Θέμα
 **Measuring power efficiency and performance of HPC Tools in constrained environments**
 
