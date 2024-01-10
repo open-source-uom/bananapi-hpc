@@ -1,0 +1,12 @@
+https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.4.tar.gz
+tar -xzvf openmpi-3.1.4.tar.gz
+cd openmpi-3.1.4
+./configure --prefix=/usr/local/openmpi-3.1.4
+make
+sudo make install
+sudo apt-get install libblas-dev
+git clone https://github.com/RIKEN-RCCS/hpl-ai.git
+cd hpl-ai
+make driver.out
+OMP_NUM_THREADS=1 mpirun -n 4 ./driver.out 1200 60 2 -not -d -r
+
