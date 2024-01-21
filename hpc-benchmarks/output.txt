@@ -1,0 +1,329 @@
+/home/geoapos/PycharmProjects/runHPL/venv/bin/python /home/geoapos/PycharmProjects/runHPL/main.py
+Running command: OMP_NUM_THREADS=1 mpirun -n 2 ./hpl-ai/driver.out 100 10 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:11 2024
+jobid=0
+n=100 b=10 r=2 c=1
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 20
+#BEGIN: Sun Jan 21 17:53:11 2024
+!epoch 0/5: elapsed=0.000005, 0.000000 Pflops (estimate)
+!epoch 1/5: elapsed=0.000213, 0.000002 Pflops (estimate)
+!epoch 2/5: elapsed=0.000413, 0.000001 Pflops (estimate)
+!epoch 3/5: elapsed=0.000581, 0.000001 Pflops (estimate)
+!epoch 4/5: elapsed=0.000684, 0.000001 Pflops (estimate)
+# iterative refinement: step=  0, residual=7.1088518429872585e-02 hpl-harness=3900877815488.807617
+# iterative refinement: step=  1, residual=0.0000000000000000e+00 hpl-harness=0.000000
+#END__: Sun Jan 21 17:53:11 2024
+0.001327594 sec. 0.513460189 GFlop/s resid = 0.000000000000000e+00 hpl-harness = 0.000000000
+
+Standard Error:
+#BEGIN: Sun Jan 21 17:53:11 2024
+#END__: Sun Jan 21 17:53:11 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=1 mpirun -n 2 ./hpl-ai/driver.out 500 20 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:11 2024
+jobid=0
+n=500 b=20 r=2 c=1
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 40
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:11 2024
+!epoch 0/12: elapsed=0.000007, 0.000000 Pflops (estimate)
+!epoch 1/12: elapsed=0.001644, 0.000011 Pflops (estimate)
+!epoch 2/12: elapsed=0.003991, 0.000009 Pflops (estimate)
+!epoch 3/12: elapsed=0.005706, 0.000008 Pflops (estimate)
+!epoch 4/12: elapsed=0.007861, 0.000007 Pflops (estimate)
+!epoch 5/12: elapsed=0.009372, 0.000007 Pflops (estimate)
+!epoch 6/12: elapsed=0.010651, 0.000007 Pflops (estimate)
+!epoch 7/12: elapsed=0.011608, 0.000007 Pflops (estimate)
+!epoch 8/12: elapsed=0.012656, 0.000006 Pflops (estimate)
+!epoch 9/12: elapsed=0.013341, 0.000006 Pflops (estimate)
+!epoch 10/12: elapsed=0.013892, 0.000006 Pflops (estimate)
+!epoch 11/12: elapsed=0.014182, 0.000006 Pflops (estimate)
+!epoch 12/12: elapsed=0.014317, 0.000006 Pflops (estimate)
+# iterative refinement: step=  0, residual=5.1690998837478311e-02 hpl-harness=581732253040.842041
+# iterative refinement: step=  1, residual=1.8958728374321855e-03 hpl-harness=21362639322.160385
+# iterative refinement: step=  2, residual=2.5402405420791568e-03 hpl-harness=28616108318.641178
+# iterative refinement: step=  3, residual=2.5276269307125373e-03 hpl-harness=28477305339.364258
+# iterative refinement: step=  4, residual=2.5065015402322881e-03 hpl-harness=28239057425.524586
+# iterative refinement: step=  5, residual=2.4869149842953932e-03 hpl-harness=28018085855.878368
+# iterative refinement: step=  6, residual=2.4670600097873993e-03 hpl-harness=27794098086.979713
+# iterative refinement: step=  7, residual=2.4470978032332469e-03 hpl-harness=27568905433.213589
+# iterative refinement: step=  8, residual=2.4270374317002449e-03 hpl-harness=27342610206.448822
+# iterative refinement: step=  9, residual=2.4068787444249942e-03 hpl-harness=27115210786.107422
+# iterative refinement: step= 10, residual=2.3866216918877210e-03 hpl-harness=26886706693.527359
+# iterative refinement: step= 11, residual=2.3662662229961360e-03 hpl-harness=26657097432.459915
+# iterative refinement: step= 12, residual=2.3458122897085879e-03 hpl-harness=26426382541.172688
+# iterative refinement: step= 13, residual=2.3252598452116616e-03 hpl-harness=26194561571.961269
+# iterative refinement: step= 14, residual=2.3046088439383321e-03 hpl-harness=25961634091.350723
+# iterative refinement: step= 15, residual=2.2838592415447183e-03 hpl-harness=25727599679.830795
+# iterative refinement: step= 16, residual=2.2630109948872015e-03 hpl-harness=25492457931.595303
+# iterative refinement: step= 17, residual=2.2506246296657728e-03 hpl-harness=25352640793.182911
+# iterative refinement: step= 18, residual=2.2608397095469288e-03 hpl-harness=25467421376.830658
+# iterative refinement: step= 19, residual=2.2710464695319074e-03 hpl-harness=25582104276.023293
+# iterative refinement: step= 20, residual=2.2812457120208081e-03 hpl-harness=25696698519.561447
+# iterative refinement: step= 21, residual=2.2914382422889075e-03 hpl-harness=25811213168.336185
+# iterative refinement: step= 22, residual=2.3016248684864923e-03 hpl-harness=25925657315.319935
+# iterative refinement: step= 23, residual=2.3118064016353903e-03 hpl-harness=26040040085.520496
+# iterative refinement: step= 24, residual=2.3219836556294792e-03 hpl-harness=26154370635.979649
+# iterative refinement: step= 25, residual=2.3321574472305161e-03 hpl-harness=26268658155.719177
+# iterative refinement: step= 26, residual=2.3423285960681678e-03 hpl-harness=26382911865.734192
+# iterative refinement: step= 27, residual=2.3524979246376258e-03 hpl-harness=26497141018.959274
+# iterative refinement: step= 28, residual=2.3626662582970741e-03 hpl-harness=26611354900.232929
+# iterative refinement: step= 29, residual=2.3728344252670801e-03 hpl-harness=26725562826.283756
+# iterative refinement: step= 30, residual=2.3830032566273954e-03 hpl-harness=26839774145.687416
+# iterative refinement: step= 31, residual=2.4038057097719107e-03 hpl-harness=27073746442.048458
+# iterative refinement: step= 32, residual=2.4445844548274501e-03 hpl-harness=27532699350.779587
+# iterative refinement: step= 33, residual=2.4858013631702618e-03 hpl-harness=27996574617.503372
+# iterative refinement: step= 34, residual=2.5274552716477352e-03 hpl-harness=28465358898.879906
+# iterative refinement: step= 35, residual=2.5695450189582823e-03 hpl-harness=28939038871.957336
+# iterative refinement: step= 36, residual=2.6120694456602481e-03 hpl-harness=29417601234.286648
+# iterative refinement: step= 37, residual=2.6550273941776483e-03 hpl-harness=29901032704.000584
+# iterative refinement: step= 38, residual=2.6984177088108440e-03 hpl-harness=30389320019.948006
+# iterative refinement: step= 39, residual=2.7422392357426555e-03 hpl-harness=30882449941.776848
+# iterative refinement: step= 40, residual=2.7864908230479718e-03 hpl-harness=31380409250.056316
+# iterative refinement: step= 41, residual=2.8311713207008465e-03 hpl-harness=31883184746.370567
+# iterative refinement: step= 42, residual=2.8762795805847749e-03 hpl-harness=32390763253.448257
+# iterative refinement: step= 43, residual=2.9218144564980698e-03 hpl-harness=32903131615.236614
+# iterative refinement: step= 44, residual=2.9677748041671364e-03 hpl-harness=33420276697.064453
+# iterative refinement: step= 45, residual=3.0141594812504642e-03 hpl-harness=33942185385.700539
+# iterative refinement: step= 46, residual=3.0609673473499461e-03 hpl-harness=34468844589.494263
+# iterative refinement: step= 47, residual=3.1081972640197640e-03 hpl-harness=35000241238.488838
+# iterative refinement: step= 48, residual=3.1558480947751254e-03 hpl-harness=35536362284.532738
+# iterative refinement: step= 49, residual=3.2039187050998579e-03 hpl-harness=36077194701.378082
+#END__: Sun Jan 21 17:53:12 2024
+0.094905237 sec. 0.882020171 GFlop/s resid = -1.000000000000000e+00 hpl-harness = -1.000000000
+
+Standard Error:
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:11 2024
+#END__: Sun Jan 21 17:53:12 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=1 mpirun -n 2 ./hpl-ai/driver.out 1000 30 2 -not -d -r
+Return Code: 134
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:12 2024
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 299767 RUNNING AT geoapos-xubuntu
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+
+Standard Error:
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=2 mpirun -n 4 ./hpl-ai/driver.out 100 10 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:12 2024
+jobid=0
+n=100 b=10 r=2 c=2
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 20
+#BEGIN: Sun Jan 21 17:53:12 2024
+!epoch 0/5: elapsed=0.000003, 0.000000 Pflops (estimate)
+!epoch 1/5: elapsed=0.054485, 0.000000 Pflops (estimate)
+!epoch 2/5: elapsed=0.102340, 0.000000 Pflops (estimate)
+!epoch 3/5: elapsed=0.188952, 0.000000 Pflops (estimate)
+!epoch 4/5: elapsed=0.242866, 0.000000 Pflops (estimate)
+# iterative refinement: step=  0, residual=7.1088518429872599e-02 hpl-harness=3900877815488.808594
+# iterative refinement: step=  1, residual=4.8333908002524961e-07 hpl-harness=24842599.605466
+# iterative refinement: step=  2, residual=3.0174127085835778e-12 hpl-harness=155.088527
+# iterative refinement: step=  3, residual=2.0122792321330962e-16 hpl-harness=0.010343
+#END__: Sun Jan 21 17:53:14 2024
+2.092744852 sec. 0.000325729 GFlop/s resid = 2.012279232133096e-16 hpl-harness = 0.010342683
+
+Standard Error:
+#BEGIN: Sun Jan 21 17:53:12 2024
+#END__: Sun Jan 21 17:53:14 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=2 mpirun -n 4 ./hpl-ai/driver.out 500 20 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:14 2024
+jobid=0
+n=500 b=20 r=2 c=2
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 40
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:14 2024
+!epoch 0/12: elapsed=0.004377, 0.000000 Pflops (estimate)
+!epoch 1/12: elapsed=0.064379, 0.000000 Pflops (estimate)
+!epoch 2/12: elapsed=0.095952, 0.000000 Pflops (estimate)
+!epoch 3/12: elapsed=0.142475, 0.000000 Pflops (estimate)
+!epoch 4/12: elapsed=0.270573, 0.000000 Pflops (estimate)
+!epoch 5/12: elapsed=0.379153, 0.000000 Pflops (estimate)
+!epoch 6/12: elapsed=0.442304, 0.000000 Pflops (estimate)
+!epoch 7/12: elapsed=0.500498, 0.000000 Pflops (estimate)
+!epoch 8/12: elapsed=0.537460, 0.000000 Pflops (estimate)
+!epoch 9/12: elapsed=0.596572, 0.000000 Pflops (estimate)
+!epoch 10/12: elapsed=0.629856, 0.000000 Pflops (estimate)
+!epoch 11/12: elapsed=0.670282, 0.000000 Pflops (estimate)
+!epoch 12/12: elapsed=0.699839, 0.000000 Pflops (estimate)
+# iterative refinement: step=  0, residual=5.1690998837478311e-02 hpl-harness=581732253040.842041
+# iterative refinement: step=  1, residual=8.2388864557081387e-08 hpl-harness=928281.963668
+# iterative refinement: step=  2, residual=1.3418021034550254e-13 hpl-harness=1.511819
+#END__: Sun Jan 21 17:53:18 2024
+3.661355176 sec. 0.022862664 GFlop/s resid = 1.341802103455025e-13 hpl-harness = 1.511819189
+
+Standard Error:
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:14 2024
+#END__: Sun Jan 21 17:53:18 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=2 mpirun -n 4 ./hpl-ai/driver.out 1000 30 2 -not -d -r
+Return Code: 143
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:18 2024
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 299806 RUNNING AT geoapos-xubuntu
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+
+Standard Error:
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHdriver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+igh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHdriver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+igh = float; FLow = fp16]: Assertion `n%b==0' failed.
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=4 mpirun -n 8 ./hpl-ai/driver.out 100 10 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:19 2024
+jobid=0
+n=100 b=10 r=2 c=4
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 40
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:19 2024
+!epoch 0/2: elapsed=0.013904, 0.000000 Pflops (estimate)
+!epoch 1/2: elapsed=0.450209, 0.000000 Pflops (estimate)
+!epoch 2/2: elapsed=1.019990, 0.000000 Pflops (estimate)
+# iterative refinement: step=  0, residual=7.1088518429872599e-02 hpl-harness=3900877815488.808594
+# iterative refinement: step=  1, residual=4.8333907999489195e-07 hpl-harness=24842599.603906
+# iterative refinement: step=  2, residual=3.0174265863713856e-12 hpl-harness=155.089240
+# iterative refinement: step=  3, residual=1.9775847626135601e-16 hpl-harness=0.010164
+#END__: Sun Jan 21 17:53:30 2024
+10.458730518 sec. 0.000065177 GFlop/s resid = 1.977584762613560e-16 hpl-harness = 0.010164361
+
+Standard Error:
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:19 2024
+#END__: Sun Jan 21 17:53:30 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=4 mpirun -n 8 ./hpl-ai/driver.out 500 20 2 -not -d -r
+Return Code: 0
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:31 2024
+jobid=0
+n=500 b=20 r=2 c=4
+2dbc lazy rdma full nopack nocheck noskiplu ddmat
+numasize=0 numamap=ROWDIST nbuf=2
+epoch_size = 80
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:31 2024
+!epoch 0/6: elapsed=0.006963, 0.000000 Pflops (estimate)
+!epoch 1/6: elapsed=0.465276, 0.000000 Pflops (estimate)
+!epoch 2/6: elapsed=0.993291, 0.000000 Pflops (estimate)
+!epoch 3/6: elapsed=1.529228, 0.000000 Pflops (estimate)
+!epoch 4/6: elapsed=2.037234, 0.000000 Pflops (estimate)
+!epoch 5/6: elapsed=2.525246, 0.000000 Pflops (estimate)
+!epoch 6/6: elapsed=2.997222, 0.000000 Pflops (estimate)
+# iterative refinement: step=  0, residual=5.1690998837478297e-02 hpl-harness=581732253040.841797
+# iterative refinement: step=  1, residual=8.2388864562285558e-08 hpl-harness=928281.963726
+# iterative refinement: step=  2, residual=1.3422422895370545e-13 hpl-harness=1.512315
+#END__: Sun Jan 21 17:53:50 2024
+17.613286556 sec. 0.004752568 GFlop/s resid = 1.342242289537054e-13 hpl-harness = 1.512315150
+
+Standard Error:
+WARNING: n%epoch_size=20
+#BEGIN: Sun Jan 21 17:53:31 2024
+#END__: Sun Jan 21 17:53:50 2024
+
+
+==================================================
+
+Running command: OMP_NUM_THREADS=4 mpirun -n 8 ./hpl-ai/driver.out 1000 30 2 -not -d -r
+Return Code: 143
+Standard Output:
+done MPI_Init_thread, provided = 2
+#MPI_Init_thread: Sun Jan 21 17:53:51 2024
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 299954 RUNNING AT geoapos-xubuntu
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+
+Standard Error:
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+driver.out: panel.hpp:142: int build_panels(int, int, bool, bool, Panels<F>&, LRPanels<FLow>*, int, int, int, int, int) [with FHigh = float; FLow = fp16]: Assertion `n%b==0' failed.
+
+
+==================================================
+
+
+Process finished with exit code 0

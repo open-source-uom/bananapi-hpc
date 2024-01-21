@@ -1,0 +1,23 @@
+# row=1, col=0, host=geoapos-xubuntu
+ DIAG_BCAST   : 0.000000e+00 sec :   0.00 % :                    0 : -nan Gop/s
+ LCOL_BCAST   : 0.000000e+00 sec :   0.00 % :                    0 : -nan Gop/s
+ RROW_BCAST   : 0.000000e+00 sec :   0.00 % :                    0 : -nan Gop/s
+ TEST         : 5.271830e-04 sec :   0.56 % :                    0 : 0.000000e+00 Gop/s
+ WAIT         : 1.939607e-03 sec :   2.04 % :                    0 : 0.000000e+00 Gop/s
+ DIAG_LU      : 9.245000e-05 sec :   0.10 % :                61800 : 6.684694e-01 Gop/s
+ TRSM_L       : 2.930440e-04 sec :   0.31 % :              1152000 : 3.931150e+00 Gop/s
+ TRSM_R       : 2.213410e-04 sec :   0.23 % :              1152000 : 5.204639e+00 Gop/s
+ CONV_L       : 1.080280e-04 sec :   0.11 % :                57600 : 5.331951e-01 Gop/s
+ CONV_R       : 1.162400e-04 sec :   0.12 % :                57600 : 4.955265e-01 Gop/s
+ GEMM_UPDATE  : 6.033166e-03 sec :   6.36 % :             29568000 : 4.900909e+00 Gop/s
+ GEMM_PROGRESS : 0.000000e+00 sec :   0.00 % :                    0 : -nan Gop/s
+ LAZY_INIT    : 2.009700e-05 sec :   0.02 % :                 4800 : 2.388416e-01 Gop/s
+ WRITE_BACK   : 0.000000e+00 sec :   0.00 % :                    0 : -nan Gop/s
+ IR_GEMV      : 4.877508e-02 sec :  51.39 % :             12000000 : 2.460273e-01 Gop/s
+ IR_GEMV_COMM : 7.018218e-03 sec :   7.39 % :                    0 : 0.000000e+00 Gop/s
+ IR_TRSV      : 7.206110e-04 sec :   0.76 % :               480000 : 6.661014e-01 Gop/s
+ IR_TRSV_MV   : 1.391184e-02 sec :  14.66 % :              1840000 : 1.322614e-01 Gop/s
+ IR_TRSV_COMM : 4.736354e-03 sec :   4.99 % :                    0 : 0.000000e+00 Gop/s
+ TOTAL        : 9.490523e-02 sec : 100.00 % :                    0 : 0.000000e+00 Gop/s
+ MISC         : 1.039197e-02 sec :  10.95 % :                    0 : 0.000000e+00 Gop/s
+GEMM_TOTAL: 0.004901 Tflops
