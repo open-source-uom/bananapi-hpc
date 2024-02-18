@@ -20,6 +20,34 @@
 
 Πρακτικά θα στήσουμε [Slurm](https://slurm.schedmd.com/gres.html) και [OAR3](https://oar-3.readthedocs.io/en/latest/) στα [Banana PI](https://www.banana-pi.org/), θα γράψουμε μία συστηματική μεθοδολογία μετρήσεων, θα εκτελέσουμε benchmarks και θα εξάγουμε τις μετρήσεις.
 
+## 🧰 Εργαλεία & Τεχνολογίες
+<div align="center">
+	<table align="center">
+		<tr>
+			<th colspan="2">
+				<a href="https://slurm.schedmd.com/gres.html" align="center">
+					<img src="https://user-images.githubusercontent.com/55043035/155833159-7e191076-d894-477b-8087-ef37567b2a31.jpeg" height="200" alt="SLURM Workload Manager Logo"></img> 
+					<p>SLURM Workload Manager</p>
+				</a>
+			</th>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="https://www.banana-pi.org/" align="center">
+					<img src="https://forum.banana-pi.org/uploads/default/original/2X/4/4f1df61eff2f82f511c3061f0771f59a507d9f34.jpeg" height="200" alt="Banana PI Logo"></img> 
+					<p>Banana PI</p>
+				</a>
+			</td>
+			<td align="center">
+				<a href="https://oar-3.readthedocs.io/en/latest/" align="center">
+					<img src="https://oar-3.readthedocs.io/en/latest/_static/oar_logo_detoure.png" height="200" alt="OAR3 Logo"></img> 
+					<p>OAR3</p>
+				</a>
+			</td>
+		</tr>	
+	</table>
+</div>
+
 # 🛠️ Πώς Δουλεύουμε 
 
 ## ⏰ Πρόγραμμα Συναντήσεων:
@@ -55,12 +83,12 @@
 
 Στην ομάδα εργάζονται τα παρακάτω άτομα:
 
-<div style="align="center"">
-	<a href="https://github.com/GeorgeFkd" style="display:flex; flex-direction: column; align-items: center; margin-right: 1em">
+<div align="center">
+	<a href="https://github.com/GeorgeFkd" align="center">
 		<img src="https://avatars.githubusercontent.com/u/69716466?v=4" style="border-radius: 50%;" height="50"></img> 
 		<p>George Fakidis</p>
 	</a>
-	<a href="https://github.com/GeorgeApos" style="display:flex; flex-direction: column; align-items: center;">
+	<a href="https://github.com/GeorgeApos" align="center">
 		<img src="https://avatars.githubusercontent.com/u/66482153?v=4" style="border-radius: 50%;" height="50"></img> 
 		<p>George D. Apostolidis</p>
 	</a>
