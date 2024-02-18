@@ -1,24 +1,100 @@
-# HPC Project @OpenSourceUoM
-Γράφουμε σε αυτό το Google Doc (https://docs.google.com/document/d/1NUKlEYw-t38lTVVUAiAo_AlRQNbpnlZOuWe6q-oBlJ8/edit). Όποιος θέλει να συμμετάσχει στο πρότζεκτ, μπορεί να ζητήση πρόσβαση και να έρθει σε επαφή με τα άτομα που το δουλεύουν ήδη ώστε να δουν αν ταιριάζει ή όχι στην υπάρχουσα ομάδα.
-## Θέμα
-**Measuring power efficiency and performance of HPC Tools in constrained environments**
+<h1 
+	align="center"
+>
+  <img src="https://images2.imgbox.com/02/58/Tlmut5GR_o.png" height="50" />
 
-Πρακτικά θα στήσουμε [Slurm](https://slurm.schedmd.com/gres.html) και [OAR3](https://oar-3.readthedocs.io/en/latest/) στα [Banana PI](https://www.banana-pi.org/), θα γράψουμε μία συστηματική μεθοδολογία μετρήσεων και θα εκτελέσουμε τα benchmarks και θα εξάγουμε τις μετρήσεις.
+  &nbsp;&nbsp;HPC Project - OpenSourceUoM
+</h1>
 
-## Πώς δουλεύουμε στο πρότζεκτ
-- Βρισκόμαστε κάθε Κυριακή και δουλεύουμε όλοι μαζί στο γραφείο της ομάδας,βρισκόμαστε κατά τις 12.30-1 και καθόμαστε για κανά 3ωρο 4ωρο ανάλογα την περίπτωση.
+<p align="center">
+  🔍 Measuring power efficiency and performance of HPC Tools in constrained environments 🛠️ 
+</p>
+
+# 🚀 Εισαγωγή
+Καλώς ήρθατε στο HPC Project της OpenSourceUoM!  Αυτό το έγγραφο λειτουργεί ως μέσο συνεργασίας και κοινού διαμοιρασμόυ πληροφορίας. Αν ενδιαφέρεστε να συμμετάσχετε στο έργο μας, δείτε τις πληροφορίες παρακάτω.
+
+# 🎯 Θέμα
+> Μέτρηση της αποδοτικότητας και της απόδοσης των εργαλείων HPC σε περιορισμένα περιβάλλοντα.
+
+> Measuring power efficiency and performance of HPC Tools in constrained environments
+
+Πρακτικά θα στήσουμε [Slurm](https://slurm.schedmd.com/gres.html) και [OAR3](https://oar-3.readthedocs.io/en/latest/) στα [Banana PI](https://www.banana-pi.org/), θα γράψουμε μία συστηματική μεθοδολογία μετρήσεων, θα εκτελέσουμε benchmarks και θα εξάγουμε τις μετρήσεις.
+
+## 🧰 Εργαλεία & Τεχνολογίες
+<div align="center">
+	<table align="center">
+		<tr>
+			<th colspan="2">
+				<a href="https://slurm.schedmd.com/gres.html" align="center">
+					<img src="https://user-images.githubusercontent.com/55043035/155833159-7e191076-d894-477b-8087-ef37567b2a31.jpeg" height="200" alt="SLURM Workload Manager Logo"></img> 
+					<p>SLURM Workload Manager</p>
+				</a>
+			</th>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="https://www.banana-pi.org/" align="center">
+					<img src="https://forum.banana-pi.org/uploads/default/original/2X/4/4f1df61eff2f82f511c3061f0771f59a507d9f34.jpeg" height="200" alt="Banana PI Logo"></img> 
+					<p>Banana PI</p>
+				</a>
+			</td>
+			<td align="center">
+				<a href="https://oar-3.readthedocs.io/en/latest/" align="center">
+					<img src="https://oar-3.readthedocs.io/en/latest/_static/oar_logo_detoure.png" height="200" alt="OAR3 Logo"></img> 
+					<p>OAR3</p>
+				</a>
+			</td>
+		</tr>	
+	</table>
+</div>
+
+# 🛠️ Πώς Δουλεύουμε 
+
+## ⏰ Πρόγραμμα Συναντήσεων:
+- Κάθε Κυριακή συναντιόμαστε στο γραφείο της ομάδας από τις 12:30 έως τις 13:00, εργαζόμενοι συνεργατικά για 3-4 ώρες.
 - Δεν δουλεύουμε εκτός αυτών των ωρών ώστε να είμαστε όλοι on the same page και για να μην φορτωνόμαστε επιπλέον δουλειά άλλες ώρες
-- Χρησιμοποιούμε το [Zotero](https://www.zotero.org/) για να οργανώνουμε την βιβλιογραφική μας δουλειά διότι θα ασχοληθούμε και ερευνητικά εδώ.
-- Κάθε φορά που συναντιόμαστε:
-	+ Σε πρώτη φάση αποφασίζουμε ποια θα είναι τα tasks της ημέρας.
-	+ Μετά ο καθένας αναλαμβάνει το task που προτιμάει ή είναι καλός.
-	+ Στο τέλος βλέπουμε τι προλάβαμε να κάνουμε, και τι όχι ώστε να το βάλουμε για την επόμενη φορά
-	+ Ενδιάμεσα αν υπάρχουν θέματα βοηθάμε ο ένας τον άλλο.
-	+ Χρησιμοποιούμε discord για ότι επικοινωνία χρειάζεται
-	+ Ότι έγγραφα υπάρχουν θα ανεβαίνουν github
-- Γενικά πρέπει να είμαστε συστηματικοί σε οτιδήποτε κάνουμε ώστε να μπορεί να γίνει επιστημονική δημοσίευση, οπότε δεν βιαζόμαστε.
 
-## Ατζέντα
+## 👥 Κάθε φορά που συναντιόμαστε:
+1. Σε πρώτη φάση αποφασίζουμε ποια θα είναι τα tasks της ημέρας.
+
+2. Μετά ο καθένας αναλαμβάνει το task που προτιμάει ή είναι καλός.
+
+3. Στο τέλος βλέπουμε τι προλάβαμε να κάνουμε, και τι όχι ώστε να το βάλουμε για την επόμενη φορά
+
+## 📋 Γενικές Οδηγίες:
+
+> [!IMPORTANT]
+> Γενικά πρέπει να είμαστε συστηματικοί σε οτιδήποτε κάνουμε ώστε να μπορεί να γίνει επιστημονική δημοσίευση, οπότε δεν βιαζόμαστε.
+
+> [!IMPORTANT]
+> Ενδιάμεσα αν υπάρχουν θέματα βοηθάμε ο ένας τον άλλο.
+
+> [!NOTE]  
+> Γράφουμε σε αυτό το [Google Doc](https://docs.google.com/document/d/1NUKlEYw-t38lTVVUAiAo_AlRQNbpnlZOuWe6q-oBlJ8/edit). 
+
+> [!NOTE] 
+> Ότι έγγραφα υπάρχουν θα ανεβαίνουν [github](https://github.com/open-source-uom/bananapi-hpc)
+
+> [!NOTE] 
+> Χρησιμοποιούμε [discord](https://discord.com/) για ότι επικοινωνία χρειάζεται
+
+## 🤝 Συμμετοχή στο Έργο 
+Όποιος θέλει να συμμετάσχει στο πρότζεκτ, μπορεί να ζητήσει πρόσβαση και να έρθει σε επαφή με τα άτομα που το δουλεύουν ήδη ώστε να δουν αν ταιριάζει ή όχι στην υπάρχουσα ομάδα.
+
+Στην ομάδα εργάζονται τα παρακάτω άτομα:
+
+<div align="center">
+	<a href="https://github.com/GeorgeFkd" align="center">
+		<img src="https://avatars.githubusercontent.com/u/69716466?v=4" style="border-radius: 50%;" height="50"></img> 
+		<p>George Fakidis</p>
+	</a>
+	<a href="https://github.com/GeorgeApos" align="center">
+		<img src="https://avatars.githubusercontent.com/u/66482153?v=4" style="border-radius: 50%;" height="50"></img> 
+		<p>George D. Apostolidis</p>
+	</a>
+</div>
+
+## 🗓️ Ατζέντα
 
 ### 12/11:
 - Υλικά: 3 τροφοδοτικά, 1 SD κάρτα(16GB), ψύκτρες για bpi
